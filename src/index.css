@@ -43,16 +43,21 @@ body {
 .output {
   grid-column: 1 / -1;
   background-color: rgb(133 133 133 / 54%);
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
   padding: 10px 15px;
   border: 1px solid white;
-  word-wrap: break-word;
-  word-break: break-all;
 }
 
 .output .operand {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.output .operand p {
+  margin: 0;
   color: white;
   font-size: 2.8rem;
+  word-wrap: break-word;
+  word-break: break-all;
 }
