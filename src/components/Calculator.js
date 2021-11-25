@@ -1,7 +1,3 @@
-/* eslint-disable react/state-in-constructor */
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import '../index.css';
 import Buttons from './Buttons';
