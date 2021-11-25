@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Buttons(props) {
+const Buttons = (props) => {
   Buttons.propTypes = {
     clickHandler: PropTypes.string.isRequired,
   };
@@ -29,4 +29,6 @@ export default function Buttons(props) {
       <button type="button" className="orange" onClick={() => clickHandler('=')}>=</button>
     </div>
   );
-}
+};
+
+export default Buttons;

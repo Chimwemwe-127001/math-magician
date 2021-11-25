@@ -4,7 +4,7 @@ import Buttons from './Buttons';
 import Output from './Output';
 import calculate from '../logic/calculate';
 
-export default function Calculator() {
+const Calculator = () => {
   const [state, setState] = useState({
     total: '0',
     next: null,
@@ -27,4 +27,6 @@ export default function Calculator() {
       />
     </div>
   );
-}
+};
+
+export default Calculator;

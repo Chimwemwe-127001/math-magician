@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Output(props) {
+const Output = (props) => {
   Output.propTypes = {
     total: PropTypes.string.isRequired,
     next: PropTypes.string.isRequired,
@@ -19,4 +19,6 @@ export default function Output(props) {
       </div>
     </div>
   );
-}
+};
+
+export default Output;
