@@ -23,7 +23,7 @@ export default function operate(numberOne, numberTwo, operation) {
     try {
       return one.mod(two).toString();
     } catch (err) {
-      return "Can't evaluate";
+      return "Can't Evaluate";
     }
   }
   throw Error(`Unknown operation '${operation}'`);
