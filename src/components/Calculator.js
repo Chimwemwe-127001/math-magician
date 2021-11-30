@@ -16,16 +16,20 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator-grid">
-      <Output
-        total={state.total}
-        operation={state.operation}
-        next={state.next}
-      />
-      <Buttons
-        clickHandler={clickHandler}
-      />
+    <div className="calculator-page">
+      <h3>Let&#39;s do some math!</h3>
+      <div className="calculator-grid">
+        <Output
+          total={state.total}
+          operation={state.operation}
+          next={state.next}
+        />
+        <Buttons
+          clickHandler={clickHandler}
+        />
+      </div>
     </div>
+
   );
 };
 

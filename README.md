@@ -2,7 +2,7 @@
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. 
 
 ## Live Demo
-> Click [here](https://ecstatic-kepler-4f902c.netlify.app/) to view the project live demo.
+> Click [here](https://my-calculator-127001.netlify.app/) to view the project live demo.
 
 ### Built With
 
