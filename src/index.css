@@ -82,6 +82,7 @@ body {
 
 .navigation > ul {
   display: flex;
+  align-items: center;
 }
 
 .navigation > ul > li {
@@ -97,6 +98,14 @@ body {
 .navigation > ul > li > a {
   text-decoration: none;
   color: black;
+  font-size: 1.3rem;
+  transition: all ease 200ms;
+}
+
+.navigation > ul > li > a:hover {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .home-content {
@@ -126,4 +135,9 @@ body {
 .quote figcaption,
 .quote blockquote {
   margin: 1em;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
 }
